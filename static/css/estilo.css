@@ -1,0 +1,156 @@
+/* Utilidades */
+.u-title {
+	color: #00ccff;
+	border-bottom: 2px dashed #00ccff;
+	font-weight: normal;
+	padding-bottom: .5em;
+	text-align: center;
+}
+
+
+.Header {
+	background-image: url("../images/portada.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 3.75em;
+	padding: 1em 0;
+	text-align: center; 
+
+}
+.Header-contenedorImagen {
+	margin: 0;
+}
+
+.Header-imagen {
+	border: 5px solid white;
+	border-radius: 50%
+
+}
+
+.Header-name,
+.Header-link {
+	color: white;
+}
+.Header-link {
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-name {
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0;
+}
+
+.MainMenu {
+	background: #1e1e1e;
+	height: 3.75em;
+	left: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+	
+}
+
+.MainMenu-list {
+	margin: 0;
+	padding: 0;
+}
+.MainMenu-item {
+	display: inline-block;
+	margin-right: 1.5em; 
+
+}
+
+.MainMenu-link {
+	color: #00dbff;
+	line-height: 3.75em;
+	text-decoration: none;
+}
+
+.Perfil {
+	text-align: center;
+
+}
+
+.Perfil-link {
+	background: orange;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 2em;
+	margin-right: .5em;
+}
+
+.Trabajo {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.Trabajo-item {
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;	
+	width: 291px;
+	height: 261px;
+}
+ .Trabajo-item figcaption {
+ 	font-size: 1.1em;
+ 	color: #515151;
+ 	font-style: italic;
+ }
+
+.Trabajo-contenedorImagen {
+	margin: 0;
+	width: 100%;
+}
+ 
+.Footer {
+	background-image: url("../images/portada.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2em 0;
+	text-align: center;
+}
+
+.Footer-form {
+	text-align: center;
+	display: inline-block;
+
+}
+
+.Footer-Left {
+	display: inline-block;
+	width: 32em;
+	text-align: center;
+	vertical-align: top;
+
+}
+
+.Footer-formInput,
+.Footer-formTextArea {
+	background: white;
+	border: none;
+	display: block;
+	margin: 0 auto 1em;
+	border-radius: 2em;
+	padding: .5em;
+}
+
+.Footer-formTextArea {
+	resize: none;
+}
+
+.Footer-formSubmit {
+	background: orange;
+	border-radius: .5em;
+	border: none;
+	color: white;
+	display: block;
+	margin: 0 auto;
+	padding: .5em;
+}
