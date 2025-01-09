@@ -11,7 +11,7 @@ const toggleShowMenu = ()=>{
 const updateActive = (index: number)=>{
 active.value =index;
 }
-<template>
+/* <template>
   <div class="w-full flex justify-center">
       <div class="sm:cursor-pointer fixed top-10 left-10 z-[999] rounded-lg bg-yellow-700/70 p-2"
       @click="toggleShowMenu"><AdjustmentsHorizontalIcon class="size-8 text-yellow-700" /></div>
@@ -21,4 +21,4 @@ active.value =index;
   </a>
       </nav>
     </div>
-</template>
+</template> */
